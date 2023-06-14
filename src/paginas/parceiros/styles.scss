@@ -1,0 +1,63 @@
+// parceiros
+
+@mixin white-gradient {
+  background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+$animationSpeed: 20s;
+$background-color: #fff;
+
+// Animation
+@keyframes scroll {
+  0% {
+    transform: translateX(150px);
+  }
+
+  100% {
+    transform: translateX(calc(-250px * 5))
+  }
+}
+
+
+// Styling 
+.slider {
+  background: $background-color;
+  // box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+  height: 100px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  // width: 960px;
+
+  &::before,
+  &::after {
+    @include white-gradient;
+    content: "";
+    height: 100px;
+    position: absolute;
+    width: 100px;
+    z-index: 2;
+  }
+
+  &::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+  }
+
+  &::before {
+    left: 0;
+    top: 0;
+  }
+
+  .slide-track {
+    animation: scroll $animationSpeed linear infinite;
+    display: flex;
+    width: calc(450px * 100);
+  }
+
+  .slide {
+    height: 100px;
+    max-width: 450px;
+  }
+}
