@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/raioXX/static/css/main.e1c206e5.css",
+    "main.js": "/raioXX/static/js/main.655c44c1.js",
+    "static/js/787.2a09ef81.chunk.js": "/raioXX/static/js/787.2a09ef81.chunk.js",
+    "static/media/iconcapes.jpg": "/raioXX/static/media/iconcapes.ce8fb2b4ca7e3b96aa98.jpg",
+    "static/media/carrossel-1.jpg": "/raioXX/static/media/carrossel-1.95221c915e128b2c9e7e.jpg",
+    "static/media/carrossel-2.jpg": "/raioXX/static/media/carrossel-2.95221c915e128b2c9e7e.jpg",
+    "static/media/carrossel-3.jpg": "/raioXX/static/media/carrossel-3.95221c915e128b2c9e7e.jpg",
+    "static/media/iconFapesc.jpg": "/raioXX/static/media/iconFapesc.e6972a519aa53e1aef05.jpg",
+    "static/media/iconNvidia.jpg": "/raioXX/static/media/iconNvidia.5946d3a5b014beb92b15.jpg",
+    "static/media/iconcapes.webp": "/raioXX/static/media/iconcapes.b05ce466272e52d658d5.webp",
+    "static/media/iconNvidia.webp": "/raioXX/static/media/iconNvidia.65e30b5c661844465aa9.webp",
+    "static/media/iconFapesc.webp": "/raioXX/static/media/iconFapesc.d1de3d96490e8ad44566.webp",
+    "static/media/iconIfc.jpg": "/raioXX/static/media/iconIfc.c8ede1836f2bea869790.jpg",
+    "static/media/iconSTT.jpg": "/raioXX/static/media/iconSTT.40e73edaf8471971f320.jpg",
+    "static/media/iconSTT.webp": "/raioXX/static/media/iconSTT.905055778f4c8d3c60eb.webp",
+    "static/media/iconIfc.webp": "/raioXX/static/media/iconIfc.4741ccd25c6e254d102e.webp",
+    "index.html": "/raioXX/index.html",
+    "main.e1c206e5.css.map": "/raioXX/static/css/main.e1c206e5.css.map",
+    "main.655c44c1.js.map": "/raioXX/static/js/main.655c44c1.js.map",
+    "787.2a09ef81.chunk.js.map": "/raioXX/static/js/787.2a09ef81.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1c206e5.css",
+    "static/js/main.655c44c1.js"
+  ]
+}
