@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom'
 import data from '../../data/projetos.json'
 import { useNavigate } from 'react-router-dom'
 // import logo from '../../assets/img/logo.png';
-import YouTube from 'react-youtube';
+//import YouTube from 'react-youtube';
 import './styles.scss'
 
 const ProjetoDetail = () => {
@@ -25,46 +25,58 @@ const ProjetoDetail = () => {
         event.target.pauseVideo();
     }
 
+    function gerarAplicacao(projeto) {
+        if (projeto.aplicacao === undefined) {
+            return
+        }
+
+        return <>
+            <h1>Aplicação</h1>
+            {projeto.aplicacao.map((apli, index) => (
+                <p>{apli}</p>
+
+            ))}
+        </>
+    }
+
+    function gerarItensProjeto(titulo, texto) {
+        return <a href="#" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+                <strong class="mb-1">{titulo}</strong>
+            </div>
+            <span class="badge bg-primary rounded-pill">{texto}</span>
+        </a>
+    }
+
     return (
         <div className='container pt-3'>
             <div className='row'>
-                <div className='col-6'>
+                <div className='col-8'>
                     <h1>{projeto.nome}</h1>
+                    <ul class="list-group list-group-horizontal pb-2">
+                        {gerarItensProjeto('Responsável', projeto.responsavel)}
+                        {gerarItensProjeto('Categoria', projeto.categoria)}
+                        {gerarItensProjeto('Status', projeto.status)}
+                    </ul>
                     {projeto.descricao.map((desc, index) => (
                         <p>{desc}</p>
-
                     ))}
-
                 </div>
-                <div className='col-6'>
-                    <img src={projeto.imagem1} className='w-75' alt='...' />
-                    <img src={projeto.imagem1} className='w-75' alt='...' />
-
-                    <p>{projeto.texto}</p>
-                    <p>{projeto.dataInicio}</p>
-                    <p>{projeto.dataFim}</p>
-                    <p>{projeto.responsavel}</p>
-                    <p>{projeto.categoria}</p>
-                    <p>{projeto.status}</p>
-                    <p>{projeto.observacoes}</p>
-
+                <div className='col-4'>
+                    <img src={projeto.imagem1} className='w-100' alt='Imagem do Projeto' />
+                    <img src={projeto.imagem1} className='w-100' alt='Imagem do Projeto' />
                 </div>
 
             </div>
             <div className='row'>
-                <div className='col-6'>
+                <div className='col-3'>
+                    <img src={projeto.imagem} className='w-75' alt='...' />
                     <img src={projeto.imagem1} className='w-75' alt='...' />
-                    <img src={projeto.imagem1} className='w-75' alt='...' />
-
+                </div>
+                <div className='col-9'>
+                    {gerarAplicacao(projeto)}
                 </div>
 
-                <div className='col-6'>
-                <h1>Aplicação</h1>
-                    {projeto.aplicacao.map((apli, index) => (
-                        <p>{apli}</p>
-
-                    ))}
-                </div>
 
             </div>
 
