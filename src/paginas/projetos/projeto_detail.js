@@ -4,6 +4,7 @@ import data from '../../data/projetos.json'
 import { useNavigate } from 'react-router-dom'
 // import logo from '../../assets/img/logo.png';
 import YouTube from 'react-youtube';
+import './styles.scss'
 
 const ProjetoDetail = () => {
     useEffect(() => {
@@ -29,7 +30,16 @@ const ProjetoDetail = () => {
             <div className='row'>
                 <div className='col-6'>
                     <h1>{projeto.nome}</h1>
-                    <p>{projeto.descricao}</p>
+                    {projeto.descricao.map((desc, index) => (
+                        <p>{desc}</p>
+
+                    ))}
+
+                </div>
+                <div className='col-6'>
+                    <img src={projeto.imagem1} className='w-75' alt='...' />
+                    <img src={projeto.imagem1} className='w-75' alt='...' />
+
                     <p>{projeto.texto}</p>
                     <p>{projeto.dataInicio}</p>
                     <p>{projeto.dataFim}</p>
@@ -37,26 +47,27 @@ const ProjetoDetail = () => {
                     <p>{projeto.categoria}</p>
                     <p>{projeto.status}</p>
                     <p>{projeto.observacoes}</p>
-                </div>
-                <div className='col-6'>
-                    <img src={projeto.imagem} className='w-25' alt='...' />
-                    <YouTube videoId={projeto.youtube} opts={{height: '390', width: '640', playerVars: {autoplay: 1}}} onReady={onPlayerReady} />
-                    <a href={projeto.link} target='_blank' rel='noreferrer'>{projeto.link}</a>
 
-                    <ul className='list-group'>
-                        {projeto.tags.map((tag, index) => (
-                            <li className='list-group-item' key={index}>{tag}</li>
-                        ))}
-                    </ul>
                 </div>
+
             </div>
-
-            <hr />
             <div className='row'>
-                <div className='col-12'>
-                    <code><pre>{json}</pre></code>
+                <div className='col-6'>
+                    <img src={projeto.imagem1} className='w-75' alt='...' />
+                    <img src={projeto.imagem1} className='w-75' alt='...' />
+
                 </div>
+
+                <div className='col-6'>
+                <h1>Aplicação</h1>
+                    {projeto.aplicacao.map((apli, index) => (
+                        <p>{apli}</p>
+
+                    ))}
+                </div>
+
             </div>
+
         </div>
     )
 }
