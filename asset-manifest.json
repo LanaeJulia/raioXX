@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/raioXX/static/css/main.c2ed8675.css",
-    "main.js": "/raioXX/static/js/main.69db73a2.js",
+    "main.js": "/raioXX/static/js/main.3b40df8e.js",
     "static/js/787.2a09ef81.chunk.js": "/raioXX/static/js/787.2a09ef81.chunk.js",
     "static/media/iconcapes.jpg": "/raioXX/static/media/iconcapes.ce8fb2b4ca7e3b96aa98.jpg",
     "static/media/carrossel-1.jpg": "/raioXX/static/media/carrossel-1.95221c915e128b2c9e7e.jpg",
@@ -18,11 +18,11 @@
     "static/media/iconIfc.webp": "/raioXX/static/media/iconIfc.4741ccd25c6e254d102e.webp",
     "index.html": "/raioXX/index.html",
     "main.c2ed8675.css.map": "/raioXX/static/css/main.c2ed8675.css.map",
-    "main.69db73a2.js.map": "/raioXX/static/js/main.69db73a2.js.map",
+    "main.3b40df8e.js.map": "/raioXX/static/js/main.3b40df8e.js.map",
     "787.2a09ef81.chunk.js.map": "/raioXX/static/js/787.2a09ef81.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c2ed8675.css",
-    "static/js/main.69db73a2.js"
+    "static/js/main.3b40df8e.js"
   ]
 }
