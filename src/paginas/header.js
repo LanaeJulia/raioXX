@@ -45,7 +45,7 @@ export default function Header() {
                             <div className="card-footer"><a className="btn btn-primary btn-sm" href="#!">More Info</a></div>
                         </div>
                     </div>
-    </div>*/}
+                </div>*/}
             </div>
         </div>
 
