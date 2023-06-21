@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/raioXX/static/css/main.e1c206e5.css",
+    "main.css": "/raioXX/static/css/main.68e28dd8.css",
     "main.js": "/raioXX/static/js/main.655c44c1.js",
     "static/js/787.2a09ef81.chunk.js": "/raioXX/static/js/787.2a09ef81.chunk.js",
     "static/media/iconcapes.jpg": "/raioXX/static/media/iconcapes.ce8fb2b4ca7e3b96aa98.jpg",
@@ -17,12 +17,12 @@
     "static/media/iconSTT.webp": "/raioXX/static/media/iconSTT.905055778f4c8d3c60eb.webp",
     "static/media/iconIfc.webp": "/raioXX/static/media/iconIfc.4741ccd25c6e254d102e.webp",
     "index.html": "/raioXX/index.html",
-    "main.e1c206e5.css.map": "/raioXX/static/css/main.e1c206e5.css.map",
+    "main.68e28dd8.css.map": "/raioXX/static/css/main.68e28dd8.css.map",
     "main.655c44c1.js.map": "/raioXX/static/js/main.655c44c1.js.map",
     "787.2a09ef81.chunk.js.map": "/raioXX/static/js/787.2a09ef81.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1c206e5.css",
+    "static/css/main.68e28dd8.css",
     "static/js/main.655c44c1.js"
   ]
 }
