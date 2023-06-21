@@ -79,7 +79,17 @@ const ProjetoDetail = () => {
 
 
             </div>
-
+            <div className='row'>
+                <div className='col-8'>
+                    <h1>Resultados</h1>
+                    {projeto.resultado.map((result, index) => (
+                        <p>{result}</p>
+                    ))}
+                </div>
+                <div className='col-4'>
+                    <img src={projeto.imagem1} className='w-75' alt='...' />
+                </div>
+            </div>
         </div>
     )
 }
