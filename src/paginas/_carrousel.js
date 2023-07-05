@@ -1,7 +1,7 @@
 
 import React from 'react'
 import carrousel1 from '../assets/img/carrossel-1.jpg'
-import carrousel2 from '../assets/img/carrossel-2.jpg'
+import carrousel2 from '../assets/img/robolocalizador (1).svg'
 import carrousel3 from '../assets/img/carrossel-3.jpg'
 
 export default function Carousel() {
