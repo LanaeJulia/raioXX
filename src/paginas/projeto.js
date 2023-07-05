@@ -8,8 +8,8 @@ export default function Projeto() {
     const projetoItem = (id, image, title, text) => {
         return (
             <div className="col-md-4" key={id}>
-                <div className="card p-3 mb-4 shadow-sm bg-accent2 text-warning">
-                    <img className="card-img-top w-75 rounded mx-auto d-block" src={image} alt="Card cap" />
+                <div className="card p-3 mb-4 shadow-sm bg-accent2 text-warning ">
+                    <img className="card-img-top w-80 rounded mx-auto d-block" src={image} alt="Card cap" />
                     <div className="card-body">
                         <h5 className="card-title">{title}</h5>
                         <p className="card-text">{text}</p>
