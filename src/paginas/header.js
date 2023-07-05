@@ -6,8 +6,8 @@ export default function Header() {
     return (
         <div className='bg-light'>
             <div id='inicio' className='container'>
-                <div className="row">
-                    <div className="width: 100%">
+                <div className="row pb-4">
+                    <div className="col-lg-5 col-md-6">
                         <Carousel />
                     </div>
                     <div className="col-lg-7 col-md-6 col-sm-12">
