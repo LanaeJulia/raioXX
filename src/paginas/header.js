@@ -11,7 +11,7 @@ export default function Header() {
                         <Carousel />
                     </div>
                     <div className="col-lg-7 col-md-6 col-sm-12">
-                        <h1 className="font-weight-light">Business Name or Tagline</h1>
+                        <h1 className="font-weight-light">Laboratório de Inteligência Computacional Aplicada</h1>
                         <p>This is a template that is great for small businesses. It doesn't have too much fancy flare to it, but it makes a great use of the standard Bootstrap core components. Feel free to use this template for any project you want!</p>
                         <HashLink to="/#projeto" className="btn btn-primary">Conheça nossos Projetos!</HashLink>
                     </div>
