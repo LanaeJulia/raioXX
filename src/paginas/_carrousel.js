@@ -1,14 +1,14 @@
 
 import React from 'react'
-import carrousel1 from '../assets/img/carrossel-1.jpg'
+import carrousel1 from '../assets/img/robolocalizador (1).svg'
 import carrousel2 from '../assets/img/robolocalizador.svg'
-import carrousel3 from '../assets/img/roboteleatendimento.svg'
+import carrousel3 from '../assets/img/carrossel-3.jpg'
 
 export default function Carousel() {
 
     const carouselItem = (image, active, title, text) => {
 
-        const imageClass = "d-block w-100 img-fluid"
+        const imageClass = "d-block w-100 img-fluid "
         const activeClass = active ? "active" : ""
 
         return (
