@@ -18,8 +18,8 @@
         ],
         "link": "http://www.github.com",
         "observacoes": "Observações do projeto 1",
-        "imagem": "https://www.google.com.br/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
-        "imagem1": "https://cdn.icon-icons.com/icons2/510/PNG/512/image_icon-icons.com_50366.png",
+        "imagem": "https://raw.githubusercontent.com/LanaeJulia/raioXX/main/src/assets/img/robolocalizador.svg",
+        "imagem1": "https://raw.githubusercontent.com/LanaeJulia/raioXX/main/src/assets/img/robolocalizador.svg",
         "resultado": [
             "Atualmente a solução tecnológica oferece pré-diagnóstico para as doenças covid-19, pneumonia e tuberculose, além de diferenciar imagens de pacientes saudáveis. A solução tecnológica foi concebida utilizando tecnologias de ponta, como redes neurais convolucionais (deep learning) e transferência de conhecimento (transfer learning), além de seguir as melhores práticas de desenvolvimento de softwares. A solução tecnológica, denominada Sistema Inteligente de Pré-Diagnóstico (SIPD), que por sua vez é composto por 4 principais módulos: 1) módulo SIPD-CNN: módulo de software para o treinamento da rede neural convolucional; 2) módulo SIPD-MIPD: módulo de software onde acontece a classificação das doenças pela rede neural e propõe o pré-diagnóstico com base na resposta da rede neural; 3) módulo SIPD-API: módulo de software responsável por receber requisições de exames, que são encaminhados ao módulo MIPD para realização do pré-diagnóstico. Este módulo é composto por endpoints de envio de exame e consulta dos pré-diagnósticos; 4) módulo SIPD-Frontend: módulo de software que faz a interação com a API e fornece interface mínima para a utilização do sistema."
         ]
@@ -47,7 +47,7 @@
             "Lorem ipsum dolor sit amet. Et galisum provident aut beatae quisquam aut quae quia qui amet placeat et sapiente voluptatem et modi atque qui molestias recusandae. Et nulla necessitatibus ut minus nemo et vitae ducimus id ipsa quos eum nesciunt ipsum quo eligendi temporibus est similique fugit."
         ],
         "observacoes": "Observações do projeto 2",
-        "imagem": "https://www.google.com.br/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
+        "imagem": "assets/img/robolocaliador.svg",
         "imagem1": "https://cdn.icon-icons.com/icons2/510/PNG/512/image_icon-icons.com_50366.png",
         "resultado": [
             "Lorem ipsum dolor sit amet. Et galisum provident aut beatae quisquam aut quae quia qui amet placeat et sapiente voluptatem et modi atque qui molestias recusandae. Et nulla necessitatibus ut minus nemo et vitae ducimus id ipsa quos eum nesciunt ipsum quo eligendi temporibus est similique fugit.",

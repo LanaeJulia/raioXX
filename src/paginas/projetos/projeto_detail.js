@@ -8,7 +8,7 @@ import './styles.scss'
 
 const ProjetoDetail = () => {
     useEffect(() => {
-        window.scrollTo(0, 0)
+        // window.scrollTo(0, 0)
     }, [])
 
     const { id } = useParams()
@@ -49,48 +49,59 @@ const ProjetoDetail = () => {
     }
 
     return (
-        <div className='container pt-3'>
-            <div className='row'>
-                <div className='col-8'>
-                    <h1>{projeto.nome}</h1>
-                    <ul class="list-group list-group-horizontal pb-2">
-                        {gerarItensProjeto('Responsável', projeto.responsavel)}
-                        {gerarItensProjeto('Categoria', projeto.categoria)}
-                        {gerarItensProjeto('Status', projeto.status)}
-                    </ul>
-                    {projeto.descricao.map((desc, index) => (
-                        <p>{desc}</p>
-                    ))}
-                </div>
-                <div className='col-4'>
-                    <img src={projeto.imagem1} className='w-100' alt='Imagem do Projeto' />
-                    <img src={projeto.imagem1} className='w-100' alt='Imagem do Projeto' />
-                </div>
+        <>
+            <div className='container-fluid pb-3'>
+                <div className='container pt-3'>
+                    <div className='row'>
+                        <div className='col-12'>
+                            <h2>{projeto.nome}</h2>
+                            <ul class="list-group list-group-horizontal pb-2">
+                                {gerarItensProjeto('Responsável', projeto.responsavel)}
+                                {gerarItensProjeto('Categoria', projeto.categoria)}
+                                {gerarItensProjeto('Status', projeto.status)}
+                            </ul>
+                        </div>
+                        <div className='col-8'>
+                            {projeto.descricao.map((desc, index) => (
+                                <p>{desc}</p>
+                            ))}
+                        </div>
+                        <div className='col-4'>
+                            <img src={projeto.imagem1} className='w-100' alt='Imagem do Projeto' />
+                            <img src={projeto.imagem1} className='w-100' alt='Imagem do Projeto' />
+                        </div>
 
-            </div>
-            <div className='row'>
-                <div className='col-3'>
-                    <img src={projeto.imagem} className='w-75' alt='...' />
-                    <img src={projeto.imagem1} className='w-75' alt='...' />
+                    </div>
                 </div>
-                <div className='col-9'>
-                    {gerarAplicacao(projeto)}
-                </div>
+                <div className='row'>
+                    <div className='col-9'>
+                        {gerarAplicacao(projeto)}
+                    </div>
 
 
-            </div>
-            <div className='row'>
-                <div className='col-8'>
-                    <h1>Resultados</h1>
-                    {projeto.resultado.map((result, index) => (
-                        <p>{result}</p>
-                    ))}
-                </div>
-                <div className='col-4'>
-                    <img src={projeto.imagem1} className='w-75' alt='...' />
                 </div>
             </div>
-        </div>
+
+            <div className='container-fluid bg-light text-dark'>
+                <div className='container pt-3'>
+                    <div className='row'>
+                        <div className='col-12'>
+                            <h1>Resultados</h1>
+                        </div>
+
+                        <div className='col-4'>
+                            <img src={projeto.imagem1} className='w-100' alt='...' />
+                        </div>
+                        <div className='col-8'>
+
+                            {projeto.resultado.map((result, index) => (
+                                <p>{result}</p>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
     )
 }
 
