@@ -7,7 +7,7 @@ export default function Header() {
         <div className='bg-light'>
             <div id='inicio' className='container'>
                 <div className="row align-items-center py-2">
-                    <div className="col-lg-5 col-md-6">
+                    <div className="width: 100%">
                         <Carousel />
                     </div>
                     <div className="col-lg-7 col-md-6 col-sm-12">
