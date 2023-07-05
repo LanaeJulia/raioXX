@@ -1,12 +1,9 @@
 [
     {
         "id": "1",
-        "nome": "Projeto 1",
+        "nome": "Classificação de doenças respiratórias em imagens de Raio-X",
         "descricao": [
-            "Lorem ipsum dolor sit amet. Et galisum provident aut beatae quisquam aut quae quia qui amet placeat et sapiente voluptatem et modi atque qui molestias recusandae. Et nulla necessitatibus ut minus nemo et vitae ducimus id ipsa quos eum nesciunt ipsum quo eligendi temporibus est similique fugit.",
-            "Est similique laboriosam eos inventore aspernatur est vitae sunt et sequi quia non inventore galisum et dolorum harum! Est magnam laboriosam ea eligendi sunt a architecto quos ut architecto laboriosam est enim animi quo consequatur doloribus aut quasi delectus.",
-            "Lorem ipsum dolor sit amet. Et galisum provident aut beatae quisquam aut quae quia qui amet placeat et sapiente voluptatem et modi atque qui molestias recusandae. Et nulla necessitatibus ut minus nemo et vitae ducimus id ipsa quos eum nesciunt ipsum quo eligendi temporibus est similique fugit.",
-            "Est similique laboriosam eos inventore aspernatur est vitae sunt et sequi quia non inventore galisum et dolorum harum! Est magnam laboriosam ea eligendi sunt a architecto quos ut architecto laboriosam est enim animi quo consequatur doloribus aut quasi delectus."
+            "Este projeto é resultado da proposta de Desenvolvimento e Validação de Estratégias Computacionais de Diagnóstico Alternativo da COVID-19 Utilizando Imagens de Radiologia Convencional e Tomografia Computadorizada, submetido ao Edital FAPESC 06/2020, como programa de apoio a projetos de ciência, tecnologia, inovação e extensão para ações emergenciais aos efeitos da COVID-19. Inicialmente, as finalidades do projeto eram duas: 1) diagnóstico alternativo para a COVID-19 e acompanhamento de pacientes sabidamente infectados com o SARS-CoV-2. Do ponto de vista de diagnóstico alternativo, a finalidade é o desenvolvimento e validação de estratégias computacionais para o diagnóstico, de novos pacientes da COVID-19, alternativo aos tradicionais exames à base de sorologia com PCR e imunologia, por meio de imagens de radiologia convencional digital e tomografia computadorizada, utilizando técnicas emergentes de inteligência artificial; 2) acompanhamento de pacientes infectados com o objetivo de contribuir, por meio de estratégias computacionais, para que os profissionais da saúde possam acompanhar casos já confirmados da COVID-19. Com o avanço do desenvolvimento do projeto, novas possibilidades foram surgindo e o foco acabou sendo direcionado para a classificação de outras Síndromes Respiratórias Agudas Graves, além da COVID-19.  "
 
         ],
         "dataInicio": "01/01/2018",
@@ -24,15 +21,12 @@
         "imagem": "https://www.google.com.br/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
         "imagem1": "https://cdn.icon-icons.com/icons2/510/PNG/512/image_icon-icons.com_50366.png",
         "resultado": [
-            "Lorem ipsum dolor sit amet. Et galisum provident aut beatae quisquam aut quae quia qui amet placeat et sapiente voluptatem et modi atque qui molestias recusandae. Et nulla necessitatibus ut minus nemo et vitae ducimus id ipsa quos eum nesciunt ipsum quo eligendi temporibus est similique fugit.",
-        
-            "Est similique laboriosam eos inventore aspernatur est vitae sunt et sequi quia non inventore galisum et dolorum harum! Est magnam laboriosam ea eligendi sunt a architecto quos ut architecto laboriosam est enim animi quo consequatur doloribus aut quasi delectus.",
-            "Lorem ipsum dolor sit amet. Et galisum provident aut beatae quisquam aut quae quia qui amet placeat et sapiente voluptatem et modi atque qui molestias recusandae. Et nulla necessitatibus ut minus nemo et vitae ducimus id ipsa quos eum nesciunt ipsum quo eligendi temporibus est similique fugit."
+            "Atualmente a solução tecnológica oferece pré-diagnóstico para as doenças covid-19, pneumonia e tuberculose, além de diferenciar imagens de pacientes saudáveis. A solução tecnológica foi concebida utilizando tecnologias de ponta, como redes neurais convolucionais (deep learning) e transferência de conhecimento (transfer learning), além de seguir as melhores práticas de desenvolvimento de softwares. A solução tecnológica, denominada Sistema Inteligente de Pré-Diagnóstico (SIPD), que por sua vez é composto por 4 principais módulos: 1) módulo SIPD-CNN: módulo de software para o treinamento da rede neural convolucional; 2) módulo SIPD-MIPD: módulo de software onde acontece a classificação das doenças pela rede neural e propõe o pré-diagnóstico com base na resposta da rede neural; 3) módulo SIPD-API: módulo de software responsável por receber requisições de exames, que são encaminhados ao módulo MIPD para realização do pré-diagnóstico. Este módulo é composto por endpoints de envio de exame e consulta dos pré-diagnósticos; 4) módulo SIPD-Frontend: módulo de software que faz a interação com a API e fornece interface mínima para a utilização do sistema."
         ]
     },
     {
         "id": "2",
-        "nome": "Projeto 2",
+        "nome": "Localização de doenças em imagens de Raio-X",
         "descricao": [
             "Lorem ipsum dolor sit amet. Et galisum provident aut beatae quisquam aut quae quia qui amet placeat et sapiente voluptatem et modi atque qui molestias recusandae. Et nulla necessitatibus ut minus nemo et vitae ducimus id ipsa quos eum nesciunt ipsum quo eligendi temporibus est similique fugit.",
             "Est similique laboriosam eos inventore aspernatur est vitae sunt et sequi quia non inventore galisum et dolorum harum! Est magnam laboriosam ea eligendi sunt a architecto quos ut architecto laboriosam est enim animi quo consequatur doloribus aut quasi delectus.",
@@ -64,7 +58,7 @@
     },
     {
         "id": "3",
-        "nome": "Projeto 3",
+        "nome": "SIMTEC - Sistema Independente Multiplataforma para Teleatendimento em Epidemias",
         "descricao": [
             "Lorem ipsum dolor sit amet. Et galisum provident aut beatae quisquam aut quae quia qui amet placeat et sapiente voluptatem et modi atque qui molestias recusandae. Et nulla necessitatibus ut minus nemo et vitae ducimus id ipsa quos eum nesciunt ipsum quo eligendi temporibus est similique fugit.",
             "Est similique laboriosam eos inventore aspernatur est vitae sunt et sequi quia non inventore galisum et dolorum harum! Est magnam laboriosam ea eligendi sunt a architecto quos ut architecto laboriosam est enim animi quo consequatur doloribus aut quasi delectus.",
