@@ -8,7 +8,7 @@ export default function Carousel() {
 
     const carouselItem = (image, active, title, text) => {
 
-        const imageClass = "d-block w-100 img-fluid"
+        const imageClass = "d-block w-100 img-fluid "
         const activeClass = active ? "active" : ""
 
         return (
