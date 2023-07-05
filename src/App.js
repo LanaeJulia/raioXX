@@ -7,20 +7,9 @@ import Footer from "./paginas/footer.js";
 import ProjetoDetail from "./paginas/projetos/projeto_detail.js";
 
 import { useLocation } from "react-router-dom";
-import InitializeGA, { TrackGAEvents, TrackGAPageView } from "./util/TrackGAEvents.js";
-
 const App = () => {
 
   const location = useLocation();
-
-  useEffect(() => {
-    InitializeGA();
-  }, []);
-
-  useEffect(() => {
-    TrackGAEvents({ category: 'Page', action: 'Visitou a página ' + location.pathname });
-    TrackGAPageView({ page: location.pathname, title: document.title});
-  }, [location]);
 
   return (
     <Fragment>
