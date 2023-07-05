@@ -9,13 +9,13 @@ export default function Projeto() {
         return (
             <div className="col-md-4" key={id}>
                 <div className="card p-3 mb-4 shadow-sm bg-accent2 text-warning">
-                    <img className="card-img-top w-75" src={image} alt="Card cap" />
+                    <img className="card-img-top w-75 rounded mx-auto d-block" src={image} alt="Card cap" />
                     <div className="card-body">
                         <h5 className="card-title">{title}</h5>
                         <p className="card-text">{text}</p>
                         <div className="d-flex justify-content-between align-items-center">
                             <div className="btn-group">
-                                <HashLink to={"/projeto-detail/" + id} className="btn btn-sm btn-outline-primary">Ver mais</HashLink>
+                                <HashLink to={"/projeto-detail/" + id} className="btn btn-sm btn-outline-warning">Ver mais</HashLink>
                             </div>
                         </div>
                     </div>
