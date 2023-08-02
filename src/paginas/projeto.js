@@ -7,7 +7,7 @@ export default function Projeto() {
 
     const projetoItem = (id, image, title, text) => {
         return (
-            <div className="col-md-4" key={id}>
+            <div className="col-md-4 d-flex align-items-stretch" key={id}>
                 <div className="card p-3 mb-4 shadow-sm bg-accent2 text-warning ">
                     <img className="card-img-top w-80 rounded mx-auto d-block" src={image} alt="Card cap" />
                     <div className="card-body">
@@ -15,7 +15,7 @@ export default function Projeto() {
                         <p className="card-text">{text}</p>
                         <div className="d-flex justify-content-between align-items-center">
                             <div className="btn-group">
-                                <HashLink to={"/projeto-detail/" + id} className="btn btn-sm btn-outline-warning">Ver mais</HashLink>
+                                <HashLink to={"/projeto-detail/" + id} className="btn btn-sm btn-outline-warning ">Ver mais</HashLink>
                             </div>
                         </div>
                     </div>
