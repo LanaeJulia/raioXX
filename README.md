@@ -5,8 +5,8 @@ Este repositório foi criado pelas alunas Lana Verene Trevizol Einsweiler e Juli
 ## Membros
 - **Orientador** [Manassés Ribeiro](https://lattes.cnpq.br/XXXXXXXXXXXXXXXXXXXX)
 - **Supervisor** [Fabricio Bizotto]()
-- **Colaborador** [Lana Verene Trevizol Einsweiler]()
-- **Colaborador** [Julia Spolti Zanella]()
+- **Colaboradora** [Lana Verene Trevizol Einsweiler]()
+- **Colaboradora** [Julia Spolti Zanella]()
 ___
 ## Como utilizar
 Para utilizar os códigos deste repositório, siga os passos abaixo:
