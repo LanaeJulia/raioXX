@@ -9,7 +9,7 @@
         "dataInicio": "01/01/2018",
         "dataFim": "01/01/2019",
         "status": "Em andamento",
-        "responsavel": "João",
+        "responsavel": "Manasses Ribeiro",
         "categoria": "Desenvolvimento",
         "tags": [
             "tag1",
@@ -43,7 +43,7 @@
         "dataInicio": "01/01/2018",
         "dataFim": "01/01/2019",
         "status": "Em andamento",
-        "responsavel": "João",
+        "responsavel": "Manasses Ribeiro",
         "categoria": "Desenvolvimento",
         "link": "http://www.github.com",
         "aplicacao":[
@@ -82,7 +82,7 @@
         ],
         "status":"Em andamento", 
         "categoria":"Desenvolvimento", 
-        "responsavel":"João",
+        "responsavel":"Manasses Ribeiro",
         "resultado": [
             "Lorem ipsum dolor sit amet. Et galisum provident aut beatae quisquam aut quae quia qui amet placeat et sapiente voluptatem et modi atque qui molestias recusandae. Et nulla necessitatibus ut minus nemo et vitae ducimus id ipsa quos eum nesciunt ipsum quo eligendi temporibus est similique fugit.",
         
