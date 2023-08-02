@@ -14,8 +14,8 @@ export default function Projeto() {
                         <h5 className="card-title">{title}</h5>
                         <p className="card-text">{text}</p>
                         <div className="d-flex justify-content-between align-items-center">
-                            <div className="btn-group">
-                                <HashLink to={"/projeto-detail/" + id} className="btn btn-sm btn-outline-warning ">Ver mais</HashLink>
+                            <div className="btn-group ">
+                                <HashLink to={"/projeto-detail/" + id} className="btn btn-sm btn-outline-warning align-items-stretch ">Ver mais</HashLink>
                             </div>
                         </div>
                     </div>
