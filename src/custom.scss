@@ -18,6 +18,8 @@ $theme-colors: (
     "danger":     #f52700,
 );
 
+$bs-card-height: 450px;
+
 
 // Import Bootstrap and its default variables
 @import '~bootstrap/scss/bootstrap.scss';
