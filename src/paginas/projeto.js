@@ -28,7 +28,7 @@ export default function Projeto() {
         return (
             <div className='bg-light pt-3'>
                 <section id="projeto" className="container pb-3">
-                    <h1>Projeto</h1>
+                    <h1>Projetos</h1>
                     <p className="text-justify">
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime voluptates velit officia
                         a quo. Ducimus fugiat, ex illo consectetur nostrum molestias iste itaque quod consequuntur ad perspiciatis
