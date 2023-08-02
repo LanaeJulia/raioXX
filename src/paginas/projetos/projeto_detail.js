@@ -8,7 +8,7 @@ import './styles.scss'
 
 const ProjetoDetail = () => {
     useEffect(() => {
-         window.scrollTo(0, 0)
+        window.scrollTo(0, 0)
     }, [])
 
     const { id } = useParams()
@@ -100,10 +100,24 @@ const ProjetoDetail = () => {
                             {projeto.resultado.map((result, index) => (
                                 <p>{result}</p>
                             ))}
+
                         </div>
                     </div>
                 </div>
             </div>
+
+            <div className='pb-3 bg-warning'>
+                    <div className='container pt-3'>
+                        <div className='row'>
+                            <div className='col-12'>
+                            <h1>Documentacão</h1>
+                            <p>{projeto.textoDocumentacao}</p>
+                            <a href={projeto.linkDocumentacao}>{projeto.linkDocumentacao}</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
         </>
     )
 }
