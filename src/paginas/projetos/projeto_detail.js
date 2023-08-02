@@ -50,7 +50,7 @@ const ProjetoDetail = () => {
 
     return (
         <>
-            <div className='container-fluid pb-3'>
+            <div className=' pb-3 bg-light'>
                 <div className='container pt-3'>
                     <div className='row'>
                         <div className='col-12'>
@@ -73,11 +73,14 @@ const ProjetoDetail = () => {
 
                     </div>
                 </div>
-                <div className='row'>
-                    <div className='col-9'>
-                        {gerarAplicacao(projeto)}
+                <div className='pb-3 bg-warning'>
+                    <div className='container pt-3'>
+                        <div className='row'>
+                            <div className='col-12'>
+                                {gerarAplicacao(projeto)}
+                            </div>
+                        </div>
                     </div>
-
 
                 </div>
             </div>
