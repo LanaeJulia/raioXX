@@ -30,10 +30,9 @@
 </filter>
 </defs>
 <g>
-<rect x="-37.202" y="29.545" width="4051.4" height="3967.1" fill-opacity=".99608" stroke="#ccc" stroke-linecap="round" stroke-opacity=".99608" stroke-width="24.252"/>
 <path d="m5960.6-252.57v5443.9" fill="none" marker-end="url(#i)" marker-start="url(#h)" stroke="#000" stroke-linecap="square"/>
-<g transform="translate(549.99)">
-<g transform="translate(-60.151 -47.853)">
+<g transform="translate(433.62 66.137)">
+<g transform="translate(-64.372 -48.678)">
 <g transform="translate(16.605 -1183.1)">
 <g transform="translate(79.815 -416.81)">
 <g stroke-linecap="round">
@@ -91,8 +90,7 @@
 </g>
 </g>
 </g>
-<g>
-<ellipse cx="1533.4" cy="3336.9" rx="553.88" ry="103.7" fill="#cbcbcb" stroke="#cbcbcb" stroke-linecap="round" stroke-width="58.72"/>
+<ellipse cx="1533.4" cy="3336.9" rx="553.88" ry="103.7" fill="#ccc" fill-opacity=".99608" stroke="#ccc" stroke-linecap="round" stroke-opacity=".99608" stroke-width="58.72"/>
 <path class="UnoptimicedTransforms" transform="translate(.16551 -479.03)" d="m1155.3 2439.4s-393.16-4.4768-87.842 494.63c2.2097 11.184 196.9 262.73 437.6 247.76 240.7 14.968 435.39-236.58 437.6-247.76 305.31-499.1-87.842-494.63-87.842-494.63h-349.76z" fill="#010101" stroke="#010101" stroke-width="43.71"/>
 <g transform="matrix(1.0505 0 0 .9459 1256.1 2041.4)" fill="none" filter="url(#a)" stroke="#05f56b" stroke-linecap="round" stroke-width="34.41">
 <path class="UnoptimicedTransforms" d="m49.665 422.29s59.298 212.96 206.2-83.933m206.2 83.933s-59.298 212.96-206.2-83.933"/>
@@ -120,9 +118,9 @@
 <path d="m467.53 156.38s42.857 86.437-141.02 65.784"/>
 <path class="UnoptimicedTransforms" d="m200.87 89.13s-166.59-88.475 7.9662-59.247c-1.3969 2.0991 39.105 7.6847 50.721 5.9343 11.616 1.7505 52.118-3.8352 50.721-5.9343 174.56-29.227 7.9662 59.247 7.9662 59.247"/>
 </g>
+<path d="m1660.6 2152.7-9.113 11.355 10.677 3.2415-8.2067 8.9135 10.223 3.7976-6.4973 6.9628s34.177-6.4737 44.14-13.892c-0.228 0.029-12.206-3.8255-12.206-3.8255l6.5096-9.4793-12.356-4.15 6.8255-10.158-5.7685-1.6142s-13.5 7.2867-24.227 8.8478z" fill="#035b28" opacity=".91199"/>
 </g>
-</g>
-<rect x="1622.4" y="2029.1" width="171.9" height="171.9" fill="none" stroke="#f50000" stroke-linecap="round" stroke-width="17.378"/>
+<rect x="1564.7" y="2044.5" width="123.25" height="120.88" fill="none" stroke="#f50000" stroke-linecap="round" stroke-width="12.339"/>
 </g>
 </g>
 </svg>
