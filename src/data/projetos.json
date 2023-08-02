@@ -25,7 +25,7 @@
         ],
         "observacoes": "Observações do projeto 1",
         "imagem": "https://raw.githubusercontent.com/LanaeJulia/raioXX/main/src/assets/img/robosars.svg",
-        "imagem1": "https://raw.githubusercontent.com/LanaeJulia/raioXX/main/src/assets/img/robosars.svg",
+        "imagem1": "https://raw.githubusercontent.com/LanaeJulia/raioXX/main/src/assets/img/Logalizador1.webp",
         "resultado": [
             "Atualmente a solução tecnológica oferece pré-diagnóstico para as doenças covid-19, pneumonia e tuberculose, além de diferenciar imagens de pacientes saudáveis. A solução tecnológica foi concebida utilizando tecnologias de ponta, como redes neurais convolucionais (deep learning) e transferência de conhecimento (transfer learning), além de seguir as melhores práticas de desenvolvimento de softwares. A solução tecnológica, denominada Sistema Inteligente de Pré-Diagnóstico (SIPD), que por sua vez é composto por 4 principais módulos: 1) módulo SIPD-CNN: módulo de software para o treinamento da rede neural convolucional; 2) módulo SIPD-MIPD: módulo de software onde acontece a classificação das doenças pela rede neural e propõe o pré-diagnóstico com base na resposta da rede neural; 3) módulo SIPD-API: módulo de software responsável por receber requisições de exames, que são encaminhados ao módulo MIPD para realização do pré-diagnóstico. Este módulo é composto por endpoints de envio de exame e consulta dos pré-diagnósticos; 4) módulo SIPD-Frontend: módulo de software que faz a interação com a API e fornece interface mínima para a utilização do sistema."
         ]
