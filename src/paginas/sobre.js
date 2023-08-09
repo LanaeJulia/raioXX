@@ -1,4 +1,4 @@
-import logo from '../assets/img/logo.png'
+import logo from '../assets/img/logosite.svg'
 import React from 'react'
 
 export default function Sobre() {
@@ -28,7 +28,7 @@ export default function Sobre() {
                         adipisci doloribus </p>
                 </div>
                 <div className="col-md-3 text-center">
-                    <img src={logo} alt="logo" width="50%"/>
+                    <img src={logo} alt="logo" width="70%"/>
                 </div>
             </div>
 

@@ -1,5 +1,5 @@
 // import logo from '../logo.svg';
-import logo from '../assets/img/logo.png';
+import logo from '../assets/img/logosite.svg';
 import React, { Component } from 'react'
 import { FaAddressBook } from 'react-icons/fa';
 import { AiFillInfoCircle } from 'react-icons/ai';
